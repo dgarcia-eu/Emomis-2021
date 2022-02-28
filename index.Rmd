@@ -1,0 +1,100 @@
+---
+title: "Misinformation research at the CSS lab"
+author: "David Garcia <br> *Graz University of Technology and CSH Vienna*"
+date: "28.02.2022"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs 
+    css: [xaringan-themer.css, "libs/footer.css"]
+    nature:
+      beforeInit: ["libs/perc.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+#This block contains the theme configuration for the CSS lab slides style
+library(xaringanthemer)
+library(showtext)
+style_mono_accent(
+  base_color = "#5c5c5c",
+  text_font_size = "1.5rem",
+  header_font_google = google_font("Arial"),
+  text_font_google   = google_font("Arial", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+
+layout: true
+<div class="my-footer"><span>David Garcia - Computational Social Science Lab - TU Graz + CSH Vienna</span></div> 
+
+---
+
+# CSS lab and misinformation
+
+> *I don't think I'll do much research on fake news* (David, 2018)
+
+
+### 1. PRODEMINFO
+
+### 2. Honesty project
+
+### 3. Jigsaw inoculation experiment
+
+### 4. EMOMIS
+
+---
+
+# PRODEMINFO 
+> *If everybody always lies to you, the consequence is not that you believe the lies, but rather that nobody believes anything... And with such a people you can then do
+what you please.* — Hannah Arendt
+
+- Protecting the Democratic Information Space: Steve Lewandowsky's ERC Advanced grant. TU Graz beneficiary (5-year postdoc, Segun Aroyehun)
+
+- Change in ontologies of truth as the disease behind the symptom of misinformation
+
+- Analysis in 5 languages in news, parliament records, Twitter, etc. Compiation of a corpus of misinformation
+
+- Testing prebunking strategies on Twitter leveraging on the friendship paradox
+
+---
+
+
+
+# Honesty project
+
+- Spinoff of PRODEMINFO to test ontology of honesty based on three behaviors:
+  - Truth seeking
+  - Belief speaking
+  - Fostering understanding
+  
+
+- Testing predicted shifts towards belief speaking in periods of democratic backsliding
+- Funded by the Templeton Foundation (Uni Bristol + TU Graz)
+- Analysis of US text (NYT, tweets, COHA, Google books)
+- Comparing historical phases with survey results about democratic backsliding and distrust in the media and other institutions
+
+---
+
+# Jigsaw inoculation experiment
+
+- Collaboration with Sander van der Linden, Steve Lewandowsky, Beth Goldberg, Jon Roozenbek, Jana Lasser
+
+- Google Jigsaw provides funding including mass ad campaign on Twitter
+
+- Testing inoculation interventions against fearmongering in the wild
+
+- Evaluating outcomes with observational Twitter data analysis: emotions, link lists from newsguard and other lists (Lazer, De Domenico, etc)
+
+- Pipelines and concept ready, about to launch.
+
+- Side project: extension of misinfo detection on Twitter with ML (Valentin Rupprecht's master thesis)
+
+
